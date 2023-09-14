@@ -1,5 +1,5 @@
 def maxProfit_bruteforce (prices):
-   max_price = 0
+   max_price = 5
 
    for i, price in enumerate(prices):
        for j in range(i, len(prices)):
